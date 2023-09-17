@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 14px; 
+}
+body{
+    font-family: 'Barlow Semi Condensed';
+    background-color:  hsl(210, 46%, 95%);
+    min-height: 100vh;
+    
+}
+.mainsection{
+    margin: 0 auto;
+    margin-top: 12.5rem;
+    max-width: 78%;
+    max-height: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    border-radius: 10px;
+    padding: 1.9rem 2.6rem;
+    justify-content: center;
+
+}
+.newsection{
+    margin: 0 auto;
+    margin-bottom: 12.5rem;
+    max-width: 78%;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    border-radius: 10px;
+    padding-right: 2.6rem;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+   
+.section-1{
+    color:  hsl(0, 0%, 81%);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: top right 18%;
+    grid-column: span 2;
+    background-color: hsl(263, 55%, 52%);
+    max-width: 50%;
+    height: 100%;
+    border-radius: 2%;
+}
+.section-2{
+    color: hsl(0, 0%, 100%);
+    max-width: 25%;
+    height: 100%;
+    border-radius: 2%;
+    background-color:hsl(217, 19%, 35%);
+ 
+}
+.section-3{
+    max-width: 25%;
+    max-height: 100%;
+    border-radius: 2%;
+    background-color:hsl(0, 0%, 100%);
+ 
+}
+.section-4{
+    max-width: 25%;
+    max-height: 100%;
+    border-radius: 2%;
+    background-color:hsl(0, 0%, 100%);
+ 
+}
+.section-5{
+    color:  hsl(0, 0%, 81%);
+    background-color: hsl(219, 29%, 14%);
+    max-width: 45%;
+    height: 100%;
+    border-radius: 2%;
+}
+
+.section-1 .author, .section-2 .author, .section-3 .author, .section-4 .author, .section-5 .author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+.section-1 .author-info, .section-2 .author-info, .section-5 .author-info{
+    
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;  
+  
+    
+}
+.section-3 .author-info, .section-4 .author-info{
+    color:  hsl(219, 29%, 14%);
+    font-weight: 500;
+
+
+}
+.section-1 .author-name,.section-2 .author-name, .section-3 .author-name, .section-4 .author-name, .section-5 .author-name{
+    opacity: 75%;
+}
+
+
+.section-1 .highlight-content,.section-2 .highlight-content,.section-5 .highlight-content{
+    color:hsl(0,0%,100%);
+    font-size: 25px;
+    
+}
+.section-3 .highlight-content{
+    color:hsl(219, 29%, 14%);
+    font-size: 20px;
+    word-spacing: 1.7px; 
+    padding: 15px 20px 5px 35px;
+}
+.section-4 .highlight-content{
+    color:hsl(219, 29%, 14%);
+    font-size: 20px;
+    word-spacing: 1.7px; 
+    padding: 15px 20px 5px 35px;
+
+}
+.section-1 .author-description, .section-2 .author-description, .section-3 .author-description, .section-4 .author-description, .section-5 .author-description{
+    opacity: 50%;
+    font-size: 11px;
+}
+.section-1 .author-image, .section-2 .author-image, .section-3 .author-image, .section-4 .author-image, .section-5 .author-image{
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 20px;
+    border-style: solid ;
+    border-width: 2px;
+
+    
+}
+.section-1 .highlight-content, .section-2 .highlight-content, .section-5 .highlight-content{
+  font-size: 1.30rem;
+  word-spacing: 1.7px; 
+  color: hsl(0,0%,100%); 
+  padding: 15px 20px 5px 35px;
+  
+  
+  }
+.section-1 .content, .section-2 .content, .section-3 .content, .section-4 .content, .section-5 .content{
+    opacity: 50%;
+    line-height: 1.4rem;
+    padding: 15px 20px 20px 35px;
+    
+}
+.section-1 .highlight-content, .section-1 .content{
+    max-width: 150%;
+   
+}
+.section-2 .highlight-content, .section-2 .content{
+    max-width: 150%;
+}
+.section-3 .highlight-content, .section-3 .content{
+    max-width: 150%;
+}
+.section-4 .highlight-content, .section-4 .content{
+    max-width: 150%;
+}
+.section-5 .highlight-content, .section-5 .content{
+    max-width: 150%;
+}
